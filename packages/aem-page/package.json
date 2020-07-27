@@ -1,0 +1,30 @@
+{
+  "name": "@magento-research/aem-page",
+  "version": "0.0.1",
+  "description": "AEM page extension for PWA Studio",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./add-aem-page.js",
+  "license": "(OSL-3.0 OR AFL-3.0)",
+  "scripts": {
+    "linkme": "yarn link"
+  },
+  "repository": "github:magento-research/pwa-studio-target-experiments",
+  "peerDependencies": {
+    "@magento/pwa-buildpack": "^5.1.1",
+    "@magento/venia-ui": "^3.0.0",
+    "react": "~16.9.0",
+    "react-router-dom": "~5.1.0",
+    "webpack": "~4.38.0"
+  },
+  "pwa-studio": {
+    "targets": {
+      "intercept": "./add-aem-page"
+    }
+  },
+  "dependencies": {
+    "@adobe/cq-react-editable-components": "file:../../../spa-react-editable-components",
+    "@adobe/cq-spa-page-model-manager": "file:../../../spa-page-model-manager"
+  }
+}
