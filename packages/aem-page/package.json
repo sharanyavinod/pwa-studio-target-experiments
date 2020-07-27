@@ -24,7 +24,8 @@
     }
   },
   "dependencies": {
-    "@adobe/cq-react-editable-components": "file:../../../spa-react-editable-components",
-    "@adobe/cq-spa-page-model-manager": "file:../../../spa-page-model-manager"
+    "@adobe/cq-react-editable-components": "^1.2.1",
+    "@adobe/cq-spa-component-mapping": "^1.0.3",
+    "@adobe/cq-spa-page-model-manager": "^1.1.3"
   }
 }
